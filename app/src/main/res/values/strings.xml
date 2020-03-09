@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BigSpenderApk</string>
+    <string name="kantor">Kantor</string>
+    <string name="transakcje">Transakcje</string>
+    <string name="wyjscie">Wyjscie</string>
+    <string name="menu">Menu</string>
+    <string name="Info">Marcin Grzyb 2019</string>
+    <string name="addNewTransaction">Dodaj nowa transakcje</string>
+    <string name="choiceText1">Podaj twoja glowna walute</string>
+    <string name="choiceText2">Podaj walute ktora bedzie domyslna przy dodawaniu transakcji</string>
+    <string-array name="Currencies">
+        <item>PLN</item>
+        <item>EUR</item>
+        <item>UAH</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>CHF</item>
+        <item>RUB</item>
+    </string-array>
+    <string-array name="transType">
+        <item>INCOME</item>
+        <item>OUTCOME</item>
+    </string-array>
+</resources>

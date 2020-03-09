@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/menu"
+        android:textAlignment="center"
+        android:textSize="46sp" />
+
+    <Button
+        android:id="@+id/buttonKantor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickKantor"
+        android:text="@string/kantor" />
+
+    <Button
+        android:id="@+id/buttonTransakcje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTrans"
+        android:text="@string/transakcje" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickInfo"
+        android:text="Informacje" />
+
+</LinearLayout>
